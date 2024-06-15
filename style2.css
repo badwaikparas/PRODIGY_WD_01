@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+nav {
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px #424242;
+  position: sticky;
+  box-shadow: #424242;
+  z-index: 10;
+  background-color: white;
+}
+
+.icon > img {
+  width: 160px;
+}
+
+.nav {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.pages {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14.4px;
+}
+
+.main1 {
+  padding: 20px;
+  width: 100vw;
+  min-height: calc(
+    100vh - 60px
+  ); /* Ensure minimum height is the viewport height minus nav */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+}
+
+.main1 > img {
+  width: 998px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 44px;
+  color: #424242;
+}
+
+h5 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 500;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  background-color: #387ed1;
+  color: #fff;
+}
+
+.main2 {
+  padding: 20px;
+  width: 100vw;
+  min-height: calc(
+    100vh - 60px
+  ); /* Ensure minimum height is the viewport height minus nav */
+}
