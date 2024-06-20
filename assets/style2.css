@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  box-sizing: border-box;
 }
 
 nav {
@@ -17,7 +17,7 @@ nav {
   background-color: white;
 }
 
-.icon > img {
+.icon>img {
   width: 160px;
 }
 
@@ -40,17 +40,15 @@ nav {
 .main1 {
   padding: 20px;
   width: 100vw;
-  min-height: calc(
-    100vh - 60px
-  ); /* Ensure minimum height is the viewport height minus nav */
+  min-height: calc(100vh - 60px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: black; */
+
 }
 
-.main1 > img {
+.main1>img {
   width: 998px;
   margin-bottom: 40px;
 }
@@ -85,7 +83,5 @@ button {
 .main2 {
   padding: 20px;
   width: 100vw;
-  min-height: calc(
-    100vh - 60px
-  ); /* Ensure minimum height is the viewport height minus nav */
+  min-height: calc(100vh - 60px);
 }
